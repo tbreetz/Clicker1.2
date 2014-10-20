@@ -8,8 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
+NSTimer *LoadTimer;
+
 @interface ViewController : UIViewController
 
+{
+    __weak IBOutlet UIProgressView *LoadingProgress;
+    
+    __weak IBOutlet UIButton *StartButton;
+    
+}
+
+-(void)LoadTimer;
+-(void)LoadRunningTimer;
 
 @end
 

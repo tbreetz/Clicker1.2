@@ -14,6 +14,7 @@
 		E73DEE3119F3606800BE1586 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E73DEE3019F3606800BE1586 /* Images.xcassets */; };
 		E73DEE3419F3606800BE1586 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E73DEE3219F3606800BE1586 /* LaunchScreen.xib */; };
 		E73DEE4019F3606800BE1586 /* Clicker1_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E73DEE3F19F3606800BE1586 /* Clicker1_2Tests.m */; };
+		E74772D219F40FC8007D5BCC /* GameView.m in Sources */ = {isa = PBXBuildFile; fileRef = E74772D119F40FC8007D5BCC /* GameView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		E73DEE3919F3606800BE1586 /* Clicker1.2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Clicker1.2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E73DEE3E19F3606800BE1586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E73DEE3F19F3606800BE1586 /* Clicker1_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Clicker1_2Tests.m; sourceTree = "<group>"; };
+		E74772D019F40FC8007D5BCC /* GameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameView.h; sourceTree = "<group>"; };
+		E74772D119F40FC8007D5BCC /* GameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +86,11 @@
 			children = (
 				E73DEE2719F3606800BE1586 /* AppDelegate.h */,
 				E73DEE2819F3606800BE1586 /* AppDelegate.m */,
+				E73DEE2D19F3606800BE1586 /* Main.storyboard */,
 				E73DEE2A19F3606800BE1586 /* ViewController.h */,
 				E73DEE2B19F3606800BE1586 /* ViewController.m */,
-				E73DEE2D19F3606800BE1586 /* Main.storyboard */,
+				E74772D019F40FC8007D5BCC /* GameView.h */,
+				E74772D119F40FC8007D5BCC /* GameView.m */,
 				E73DEE3019F3606800BE1586 /* Images.xcassets */,
 				E73DEE3219F3606800BE1586 /* LaunchScreen.xib */,
 				E73DEE2319F3606800BE1586 /* Supporting Files */,
@@ -221,6 +226,7 @@
 			files = (
 				E73DEE2C19F3606800BE1586 /* ViewController.m in Sources */,
 				E73DEE2919F3606800BE1586 /* AppDelegate.m in Sources */,
+				E74772D219F40FC8007D5BCC /* GameView.m in Sources */,
 				E73DEE2619F3606800BE1586 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +420,7 @@
 				E73DEE4519F3606800BE1586 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E73DEE4619F3606800BE1586 /* Build configuration list for PBXNativeTarget "Clicker1.2Tests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +429,7 @@
 				E73DEE4819F3606800BE1586 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
